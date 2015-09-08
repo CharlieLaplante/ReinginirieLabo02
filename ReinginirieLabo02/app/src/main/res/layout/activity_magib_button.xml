@@ -7,13 +7,15 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:onClick="Start">
+        android:layout_height="wrap_content">
         <Button
+            android:id="@+id/ButtonStart"
             android:text="@string/Start"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:onClick="Start"/>
+
         <TextView
             android:id="@+id/NbBouttonRestant"
             android:layout_width="wrap_content"
@@ -24,25 +26,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
@@ -54,54 +56,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="Jeux">
-        </Button>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <Button
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="Jeux">
-        </Button>
-        <Button
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="Jeux">
-        </Button>
-        <Button
-            android:visibility="gone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="Jeux">
-        </Button>
-        <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
@@ -112,25 +85,54 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
         </Button>
         <Button
-            android:visibility="gone"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Jeux">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Jeux">
+        </Button>
+        <Button
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Jeux">
+        </Button>
+        <Button
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Jeux">
+        </Button>
+        <Button
+            android:visibility="invisible"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="Jeux">
